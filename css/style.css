@@ -343,4 +343,8 @@ body {
   .balance-box .balance {
     font-size: 20px;
   }
+
+  .diagram .column-box .popup-hover div {
+    font-size: 9px;
+  }
 }
