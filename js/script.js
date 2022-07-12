@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     elMyBalance.innerHTML = "$" + myBalance;
-    elTotalThisMonth.innerHTML = totalThisMonth.toFixed(2);
+    elTotalThisMonth.innerHTML = "$" + totalThisMonth.toFixed(2);
     elPercent.innerHTML = ((totalThisMonth - totalLastMonth) > 0 ? "+" : "") + 
                                 ((totalThisMonth - totalLastMonth) / 100).toFixed(2) 
                                                                                     + "%"; 
